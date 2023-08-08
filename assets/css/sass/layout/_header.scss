@@ -5,6 +5,7 @@ header {
     height: to-rem(155px);
     background: linear-gradient(180deg, rgba(55, 50, 93, 0.55) 0%, rgba(48, 45, 76, 0.41) 55.44%, rgba(31, 31, 31, 0.00) 100%);
     z-index: 3;
+    display: none;
     .navbar {
         &-collapse {
             margin: auto;

@@ -63,6 +63,59 @@
             z-index: 2;
         }
     }
+    &.products-page {
+        background-image: url("../images/banners/products-banner.png");
+        .overlay {
+            opacity: 0.5;
+            background: #120e2f;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: to-rem(532px);
+            z-index: 2;
+        }
+    }
+    &.projects-page {
+        background-image: url("../images/banners/projects-banner.png");
+        .overlay {
+            opacity: 0.6;
+            background: #191340;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: to-rem(532px);
+            z-index: 2;
+        }
+    }
+    &.contact-page {
+        background-image: url("../images/banners/contact-banner.png");
+        .overlay {
+            opacity: 0.6;
+            background: #191340;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: to-rem(532px);
+            z-index: 2;
+        }
+    }
+    &.cart-page {
+        background-image: url("../images/banners/cart-banner.png");
+        height: to-rem(276px);
+        h1 {
+            margin-bottom: 0;
+            text-transform: capitalize;
+        }
+        .overlay {
+            opacity: 0.6;
+            background: #191340;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: to-rem(276px);
+            z-index: 2;
+        }
+    }
 }
 
 /* About Section */
@@ -80,11 +133,6 @@
     .mockup {
         position: relative;
         z-index: 2;
-    }
-    .rectangle {
-        position: absolute;
-        bottom: to-rem(73px);
-        width: 100%;
     }
 }
 
@@ -299,10 +347,17 @@
             }
         }
     }
+    &.products-page {
+        transform: translateY(0px);
+    }
+    .row {
+        position: relative;
+        z-index: 3;
+    }
 }
 
-/* Statisics Section */
-.statisics {
+/* Statisitcs Section */
+.statistics {
     background-color: $dark-blue;
     padding: to-rem(130px) 0 to-rem(115px) 0;
     .top {

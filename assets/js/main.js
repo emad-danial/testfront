@@ -2,6 +2,7 @@
 (function ($) {
     "use strict";
 
+    // Clients Carousel
     $('.owl-carousel').owlCarousel({
         loop: true,
         margin: 10,
@@ -19,5 +20,15 @@
             }
         }
     })
+
+    // Projects Table
+    let table = new DataTable('#projectsTable', {
+        responsive: true
+    });
+
+    // Projects Table
+    let cartTable = new DataTable('#cartTable', {
+        responsive: true
+    });
 
 })(jQuery);

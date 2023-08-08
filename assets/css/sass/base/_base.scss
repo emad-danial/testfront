@@ -32,6 +32,35 @@ a {
   font-size: to-rem(24px);
   font-family: var(--mont-semi-bold);
 }
+.mt-50 {
+  margin-top: to-rem(50px) !important;
+}
 .mt-60 {
-  margin-top: to-rem(60px);
+  margin-top: to-rem(60px) !important;
+}
+.mb-70 {
+  margin-bottom: to-rem(70px) !important;
+}
+.title {
+  font-family: var(--mont-semi-bold);
+  color: $dark-blue;
+  font-size: to-rem(24px);
+}
+.about {
+  .rectangle {
+    position: absolute;
+    bottom: to-rem(73px);
+    width: 100%;
+  }
+}
+.pricing {
+  .rectangle {
+    position: absolute;
+    bottom: to-rem(280px);
+    width: 100%;
+  }
+}
+.asterisk {
+  color: red;
+  font-size: to-rem(15px);
 }

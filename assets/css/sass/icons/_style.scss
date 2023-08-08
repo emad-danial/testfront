@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?xj19vk');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?xj19vk#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?xj19vk') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?xj19vk') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?xj19vk##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?48wstc');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?48wstc#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?48wstc') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?48wstc') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?48wstc##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -27,6 +27,16 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-mail {
+  &:before {
+    content: $icon-mail; 
+  }
+}
+.icon-calling {
+  &:before {
+    content: $icon-calling; 
+  }
+}
 .icon-mobile {
   &:before {
     content: $icon-mobile; 
@@ -202,3 +212,4 @@
     content: $icon-fax; 
   }
 }
+
