@@ -1,0 +1,17 @@
+/* Services Section */
+.explore {
+    transform: translateY(to-rem(100px));
+    margin-bottom: to-rem(200px);
+    background-image: url('../images/explore.png');
+    background-size: cover;
+    height: to-rem(230px);
+    display: flex;
+    align-items: center;
+    h2 {
+        color: $dark-blue;
+        font-size: to-rem(32px);
+        font-family: var(--mont-bold);
+        margin-bottom: to-rem(28px);
+        width: 53%;
+    }
+}

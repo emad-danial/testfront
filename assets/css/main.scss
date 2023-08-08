@@ -1,0 +1,32 @@
+@import
+
+    // Config
+    "sass/abstracts/variables", 
+    "sass/abstracts/directional",
+    "sass/abstracts/functions", 
+    "sass/abstracts/mixins",
+    "sass/abstracts/placeholder",
+    
+    // Base
+    "sass/base/base",
+    "sass/base/fonts", 
+    "sass/base/utilities",
+
+    // Icons
+    "sass/icons/style",
+
+    // Components
+    "sass/components/accordion",
+    "sass/components/breadcrumb",
+    "sass/components/buttons",
+   
+    // Layouts
+    "sass/layout/header",
+    "sass/layout/footer",
+    "sass/layout/scroll",
+    "sass/layout/preloader",
+
+    // Pages
+    "sass/pages/home",
+    "sass/pages/about",
+    "sass/pages/services";

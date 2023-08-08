@@ -1,0 +1,40 @@
+/* Header */
+header {
+    position: fixed;
+    width: 100%;
+    height: to-rem(155px);
+    background: linear-gradient(180deg, rgba(55, 50, 93, 0.55) 0%, rgba(48, 45, 76, 0.41) 55.44%, rgba(31, 31, 31, 0.00) 100%);
+    z-index: 3;
+    .navbar {
+        &-collapse {
+            margin: auto;
+            max-width: max-content;
+        }
+        .nav {
+            &-link {
+                color: $white !important;
+                font-family: var(--avenir);
+                font-size: to-rem(16px);
+                display: flex;
+                align-items: center;
+                letter-spacing: to-rem(0.3px);
+                margin-#{$right}: to-rem(24px);
+                .icon-login {
+                    margin-#{$left}: to-rem(5px);
+                    font-size: to-rem(20px);
+                }
+            }
+        }
+        &-right {
+            display: flex;
+            align-items: center;
+            a {
+                span {
+                    margin-#{$right}: to-rem(24px);
+                    color: #fff;
+                    font-size: to-rem(22px);
+                }
+            }
+        }
+    }
+}
